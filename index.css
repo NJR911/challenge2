@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display';
+    background-image: url('pattern-background-desktop.svg');
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 30%;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.box{
+    background-color: white;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.303);
+}
+
+
+
+        /*Top*/
+
+.top{
+    content: url("illustration-hero.svg");
+    width: 380px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+        /*Bottom*/
+.bottom{
+    width: 380px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.p1{
+    color: hsl(224, 23%, 55%);
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 80px;
+    margin: auto;
+    width: 320px;
+    border-radius: 20px;
+    background: hsla(224, 23%, 55%, 0.041);
+}
+
+.s1{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.s21{
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.s22{
+    font-size: 15px;
+    margin-left: 18px;
+    color: hsl(224, 23%, 55%);
+}
+
+.s3{
+    margin-left: 25%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.button{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 95px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0.2px solid rgb(134, 146, 206);
+    margin: 1px 1px 0 1px;
+    display: inline-flex;
+    margin-top: 25px;
+    box-shadow: 10px 5px 20px 2px rgba(0, 0, 0, 0.323);
+}
+
+.p2{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 40px;
+}
+
+    
